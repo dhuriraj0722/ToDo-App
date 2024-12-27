@@ -1,0 +1,54 @@
+body{
+    background-image: url("todo background img.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 360px;
+    padding: 3px 33px 33px 33px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+    margin-top: 10vh;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(107, 165, 165);
+    outline: none;
+    font-size:19px;
+
+}
+button{
+    width: 65px;
+    height: 41px;
+    background-color: rgb(10, 9, 9);
+    border-radius: 5px;
+    border: none;   
+    outline: none;
+    font-size: 19px;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.text ul{
+    position: relative;
+    background-color: rgb(1, 27, 27);
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+}
+
+.text ul .material-symbols-outlined{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
